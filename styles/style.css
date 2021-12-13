@@ -89,6 +89,7 @@ p {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 50px;
+
 }
 
 .dog-card {
@@ -103,11 +104,13 @@ p {
     border: solid 1px black;
     width: 200px;
     height: 200px;
+    cursor: pointer;
 }
 
 .dog-card img {
     width: 90%;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .dog-detail {

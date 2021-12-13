@@ -13,7 +13,7 @@ export function renderDogCard(dog) {
     div.append(p, img);
 
     a.append(div);
-
+    // console.log(a);
     return a;
 }
 
