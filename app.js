@@ -16,12 +16,11 @@ window.addEventListener(`load`, async() => {
 function renderDogs(dogsData){
     for (let dog of dogsData){
         let renderDog = renderDogCard(dog);
- 
+
         renderDog.addEventListener(`click`, async() => {
             let fetchDog = getDog(dog.id);
             renderDogDetail(fetchDog);
         });
-
 
         dogListContainer.append(renderDog);
     }
